@@ -13,9 +13,11 @@ inputs:
     description: "Comma-separated Discord role IDs to mention"
     required: false
     default: ""
+
 runs:
-  using: "node20"
-  main: "src/index.js"
+  using: "node22"
+  main: "dist/index.js"
+
 
 branding:
   icon: rss

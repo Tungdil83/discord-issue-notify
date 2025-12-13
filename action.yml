@@ -16,7 +16,7 @@ inputs:
 
 runs:
   using: "node24"
-  main: "dist/index.js"
+  main: "build/index.js"
 
 
 branding:

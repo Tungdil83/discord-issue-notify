@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Notify Discord
-        uses: Tungdil83/discord-issue-notify@latest
+        uses: Tungdil83/discord-issue-notify@v1.1.0
         with:
           webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
           mention_users: ""
